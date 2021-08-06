@@ -1,12 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 body{
-	background-color: powderblue;
+	background-origin: border-box;
+	background-image: 
+	  url("images/qps/grass.png"), url("images/qps/hills.png"),
+	  url("images/qps/trees.png"), url("images/qps/mountains.png"), 
+	  url("images/qps/sky.png"), linear-gradient(180deg, #4d78fc 50%, #5c4604 50%);
+	background-position:  50% 120%, 50% 80%, 50% 65%, 50% 40%, 50% 5%, 50% 50%;
+	background-repeat: repeat-x;
+	background-size: auto 30%, auto 50%, auto 50%, auto 50%, auto 40%, 100% 200%;
+	/*background-color: powderblue;*/
 	text-align: center;
 	align-content: center;
 }
 #title{
 	font-family: "Patrick Hand";
 	font-size: 64px;
+	color:  floralwhite;
+	text-shadow: -2px 2px 8px grey,
+				  2px 2px 8px grey,
+				  2px -2px 0 grey,
+				  -2px -2px 0 grey;
 }
 p{
 	font-family: courier;
