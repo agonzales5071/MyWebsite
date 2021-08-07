@@ -1,7 +1,7 @@
 //this should ask the browser for location permissions and set a text
 var i = 0;
 
-var text = document.getElementById("locationtext");
+const text = document.getElementById("locationtext");
 
  function getlocation(){
  	if (navigator.geolocation) {
